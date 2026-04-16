@@ -19,6 +19,14 @@ System.out.println("Age: " + grade);
 // + a + b add all like string
 System.out.println("Sum: " + (a + b)); 
 System.out.println("Age: " + a + b);
+
+// order matters : wasi + a + b == wasi1015
+// order matters :   a + b + wasi == 25wasi (first add then concenate) same as (a + b) + wasi
+
+System.out.println( a + b + "wasi"); 
+System.out.println( (a + b) + "wasi");
+System.out.println("wasi" + a + b); 
+
 }
 
 }

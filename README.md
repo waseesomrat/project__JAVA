@@ -1,20 +1,46 @@
-# Java Projects 🚀
+ 
+---
 
-This repository contains my Java practice codes and mini projects.
+## 🛠 Languages Used
 
-## 📌 What’s inside
-- Basic Java programs
-- Problem solving
-- Lab work
-- Mini projects (coming soon)
+- ☕ Java  
+- ⚙️ C++  
 
-## 🛠 Language
-- Java
+---
 
 ## 🎯 Purpose
-I created this repository to improve my Java programming skills and track my learning.
 
-## 📂 Future Plans
-- Add more projects
-- Improve code structure
-- Practice DSA
+- Practice programming concepts  
+- Improve problem-solving skills  
+- Build small projects  
+- Prepare for DSA & competitive programming  
+
+---
+
+## 📌 What's Inside
+
+- Basic programming problems  
+- Lab assignments  
+- Mini projects (growing over time)  
+- Experimental/test code  
+
+---
+
+## 🚧 Future Plans
+
+- Add Data Structures & Algorithms (DSA)  
+- Build larger projects  
+- Improve code organization  
+- Add documentation for each project  
+
+---
+
+## 📈 Progress
+
+This repository will be updated regularly as I continue learning and building.
+
+---
+
+## 🙌 Author
+
+**Wasee Somrat**

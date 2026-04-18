@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class  Main {
+public class  A_Two_Frogs {
 
 
     public static void main(String[] args){
@@ -9,13 +9,14 @@ public class  Main {
 
         int t = sc.nextInt();
         for(int i = 0; i < t;i++){
+             int n = sc.nextInt();
             int a = sc.nextInt();
-
-            if(a % 2 == 0){
-                System.out.println("NO");
+             int b = sc.nextInt();
+            if(Math.abs(a - b) % 2 == 1){
+                System.out.printf("NO\n");
             }
     else
-                           System.out.println("YES");
+                           System.out.printf("YES\n");
         }
     }
 

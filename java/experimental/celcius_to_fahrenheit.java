@@ -13,6 +13,4 @@ public class celcius_to_fahrenheit {
 
         }
 
-
-
 }

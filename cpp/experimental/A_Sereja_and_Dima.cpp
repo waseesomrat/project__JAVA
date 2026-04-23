@@ -1,34 +1,41 @@
-#include<iostream>
-
+#include <iostream>
+#include <vector>
 using namespace std;
 
-int main() {
-int t;
-cin>>t;
-int sum1 = 0,sum2 = 0;
-int arr[t];
-for(int i = 0;i < t;i++){
-    cin>>arr[i];
-}
-for(int i = 0 ; i < t - 1 ;i++){
-    for(int j = 0;j < t - i -1;j++){
-        if(arr[j] < arr[j+ 1]){
-        int temp = arr[j + 1];
-                arr[j + 1] = arr[j];
-                arr[j] = temp;
-            
+int main()
+{
+    int t;
+    cin >> t;
+    vector<int> v;
+    int sereja = 0;
+    int dima = 0;
+    for (int i = 0; i < t; i++)
+    {
+        int x;
+        cin >> x;
+        v.push_back(x);
     }
-}
+    for (int i = 0; i < t; i++)
+    {
+        if (*v.begin() < *(v.end() - 1))
+        {
+            if (i % 2 == 0)
+                sereja += *(v.end() - 1);
+            else
+                dima += *(v.end() - 1);
 
-}
-for(int i = 0;i < t;i++){
-    sum1 += arr[i];
-}
+            v.erase(v.end() - 1);
+        }
+        else
+        {
+            if (i % 2 == 0)
+                sereja += *v.begin();
+            else
+                dima += *v.begin();
 
+            v.erase(v.begin());
+        }
+    }
 
-for(int i = 0;i < t;i+=2){
-    sum2 += arr[i];
-}
-cout<<sum2<<" "<<sum1 - sum2;
-
+    cout << sereja << " " << dima;
 }

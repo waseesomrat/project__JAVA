@@ -11,12 +11,9 @@ using namespace std;
 int main() {
     fast;
 
-    int t;
-    cin >> t;
-
-    while(t--) {
-            cout<< "wasi\n";
-    }
-
+    int t,z,x;
+    cin >> t>> x;
+    z = t % x ;
+    cout<<z;
     return 0;
 }
